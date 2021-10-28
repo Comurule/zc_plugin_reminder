@@ -23,7 +23,7 @@
 	},
 	"scripts": {
 		"start": "webpack serve --port 9001",
-		"build": "rm -rf dist && NODE_ENV=production CI=true webpack --mode=production",
+		"build": "rm -rf build && NODE_ENV=production CI=true webpack --mode=production",
 		"test": "cross-env BABEL_ENV=test jest",
 		"eject": "react-scripts eject",
 		"lint": "eslint src --ext js",
@@ -91,7 +91,7 @@
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.9",
 		"url-loader": "^4.1.1",
 		"webpack": "^5.51.1",
-		"webpack-cli": "^4.8.0",
+		"webpack-cli": "^4.9.1",
 		"webpack-config-single-spa-react": "^4.0.0",
 		"webpack-dev-server": "^4.0.0",
 		"webpack-merge": "^5.8.0"
